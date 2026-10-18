@@ -1,4 +1,4 @@
-import { CalendarPlus, Clock, MapPin, Navigation, Sparkles } from "lucide-react";
+import { CalendarPlus, MapPin, Navigation, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import { wedding } from "./data";
 import { Reveal, Ornament } from "./Reveal";
@@ -17,7 +17,7 @@ function addToCalendar() {
     `DTSTAMP:${icsStamp(new Date().toISOString())}`,
     `DTSTART:${icsStamp(wedding.dateISO)}`,
     `DTEND:${icsStamp(wedding.endISO)}`,
-    `SUMMARY:${wedding.bride.name} & ${wedding.groom.name} — Wedding`,
+    `SUMMARY:${wedding.groom.name} & ${wedding.bride.name} — Wedding`,
     `LOCATION:${wedding.venue.name}, ${wedding.venue.address}`,
     "DESCRIPTION:With love, we invite you to our wedding.",
     "END:VEVENT",
@@ -33,8 +33,7 @@ function addToCalendar() {
 }
 
 const rows = [
-  { icon: Sparkles, label: "The Ceremony", value: wedding.muhurthamLabel },
-  { icon: Clock, label: "Time", value: wedding.timeLabel },
+  { icon: Sparkles, label: "Muhurtham", value: wedding.muhurthamLabel },
   { icon: MapPin, label: "Venue", value: wedding.venue.name },
 ];
 

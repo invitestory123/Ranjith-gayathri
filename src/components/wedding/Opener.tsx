@@ -65,9 +65,9 @@ export function Opener({ onOpen }: { onOpen: () => void }) {
               A wedding invitation
             </span>
             <h1 className="text-gold-foil font-display mt-5 text-5xl leading-none font-light">
-              {wedding.bride.name}
-              <span className="font-script text-gold/80 mx-3 text-3xl">&amp;</span>
               {wedding.groom.name}
+              <span className="font-script text-gold/80 mx-3 text-3xl">&amp;</span>
+              {wedding.bride.name}
             </h1>
             <span className="rule-gold mt-6 w-32" />
 
@@ -90,8 +90,8 @@ export function Opener({ onOpen }: { onOpen: () => void }) {
                 transition={{ repeat: Infinity, duration: 3.4, ease: "easeInOut" }}
               >
                 <span className="font-script text-emerald-ink text-3xl leading-none">
-                  {wedding.bride.name[0]}
                   {wedding.groom.name[0]}
+                  {wedding.bride.name[0]}
                 </span>
               </motion.span>
             </motion.button>

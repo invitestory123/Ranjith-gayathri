@@ -11,9 +11,9 @@ import { ScrollProgress } from "@/components/wedding/ScrollProgress";
 import { MusicPlayer } from "@/components/wedding/MusicPlayer";
 import { wedding } from "@/components/wedding/data";
 
-const title = "Gayathri & Ranjith · 15 November 2026, Pazhayannur";
+const title = "Ranjith & Gayathri · 15 November 2026, Pazhayannur";
 const description =
-  "Together with their families, Gayathri S and Ranjith M invite you to celebrate their wedding on 15 November 2026 at Samskriti Convention Centre, Pazhayannur.";
+  "Together with their families, Ranjith M and Gayathri S invite you to celebrate their wedding on 15 November 2026 at Samskriti Convention Centre, Pazhayannur.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -26,7 +26,7 @@ export const Route = createFileRoute("/")({
       { property: "og:image", content: "/og-image.png" },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
-      { property: "og:image:alt", content: "Gayathri & Ranjith Wedding Invitation" },
+      { property: "og:image:alt", content: "Ranjith & Gayathri Wedding Invitation" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: title },
       { name: "twitter:description", content: description },
