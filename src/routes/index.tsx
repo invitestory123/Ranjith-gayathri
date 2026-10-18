@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Hero } from "@/components/wedding/Hero";
 import { Couple } from "@/components/wedding/Couple";
+import { Gallery } from "@/components/wedding/Gallery";
 import { Countdown } from "@/components/wedding/Countdown";
 import { EventDetails } from "@/components/wedding/EventDetails";
 import { Footer } from "@/components/wedding/Footer";
@@ -74,6 +75,7 @@ function Invitation() {
       >
         <Hero />
         <Couple />
+        <Gallery />
         <Countdown />
         <EventDetails />
         <Footer />
