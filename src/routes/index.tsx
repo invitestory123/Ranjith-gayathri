@@ -75,9 +75,9 @@ function Invitation() {
       >
         <Hero />
         <Couple />
-        <Gallery />
         <Countdown />
         <EventDetails />
+        <Gallery />
         <Footer />
       </motion.main>
     </>

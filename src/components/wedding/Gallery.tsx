@@ -35,9 +35,9 @@ export function Gallery() {
     <section className="relative overflow-hidden px-5 py-20">
       <div className="relative mx-auto max-w-md">
         <Reveal className="text-center">
-          <Ornament label="Moments" />
-          <h2 className="text-primary mt-5 text-4xl font-light">Captured Moments</h2>
-          <p className="text-muted-foreground mx-auto mt-3 max-w-xs text-sm leading-relaxed">
+          <Ornament label="Gallery" />
+          <h2 className="text-primary mt-5 text-4xl font-light">Our moments</h2>
+          <p className="text-muted-foreground font-display italic mx-auto mt-3 max-w-xs text-base leading-relaxed">
             Fleeting glances, shared laughter, and little memories framed for a lifetime.
           </p>
         </Reveal>

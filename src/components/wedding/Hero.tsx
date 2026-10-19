@@ -52,20 +52,11 @@ export function Hero() {
           style={{ y: textY, opacity: textOpacity }}
           className="flex flex-col items-center"
         >
-          <motion.p
-            initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2, duration: 0.9 }}
-            className="text-gold-soft/90 text-[0.6rem] tracking-[0.5em] uppercase"
-          >
-            Together with their families
-          </motion.p>
-
           <motion.h1
             initial={{ opacity: 0, y: 24, filter: "blur(8px)" }}
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-            transition={{ delay: 0.4, duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
-            className="mt-5 flex flex-col items-center leading-[0.82]"
+            transition={{ delay: 0.3, duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
+            className="flex flex-col items-center leading-[0.82]"
           >
             <span className="text-gold-foil font-display text-[4.25rem] font-light">
               {wedding.groom.name}
@@ -76,28 +67,29 @@ export function Hero() {
             </span>
           </motion.h1>
 
+          <motion.p
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.8, duration: 0.9 }}
+            className="text-gold-soft/90 mt-6 text-xs tracking-[0.45em] uppercase font-light"
+          >
+            Save the date
+          </motion.p>
+
           <motion.div
             initial={{ opacity: 0, scaleX: 0 }}
             animate={{ opacity: 1, scaleX: 1 }}
             transition={{ delay: 1, duration: 0.9 }}
-            className="rule-gold mt-7 w-40"
+            className="rule-gold mt-4 w-40"
           />
 
           <motion.p
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.15, duration: 0.9 }}
-            className="text-ivory/85 mt-5 text-sm tracking-[0.35em] uppercase"
+            className="text-ivory/85 mt-4 text-sm tracking-[0.35em] uppercase"
           >
             15 · 11 · 2026
-          </motion.p>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.35, duration: 0.9 }}
-            className="text-ivory/60 mt-2 text-[0.7rem] tracking-[0.25em] uppercase"
-          >
-            Pazhayannur, Kerala
           </motion.p>
         </motion.div>
 

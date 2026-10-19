@@ -61,8 +61,8 @@ export function Opener({ onOpen }: { onOpen: () => void }) {
             exit={{ opacity: 0, scale: 0.9, filter: "blur(6px)" }}
             transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
           >
-            <span className="text-gold/80 text-[0.55rem] tracking-[0.5em] uppercase">
-              A wedding invitation
+            <span className="text-gold-soft text-xs tracking-[0.38em] uppercase font-light sm:text-sm">
+              We are getting married
             </span>
             <h1 className="text-gold-foil font-display mt-5 text-5xl leading-none font-light">
               {wedding.groom.name}

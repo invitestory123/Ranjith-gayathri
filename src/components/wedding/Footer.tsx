@@ -38,7 +38,7 @@ export function Footer() {
           <p className="font-script text-gold-foil mt-6 text-4xl leading-snug">
             Come bless our beginning
           </p>
-          <p className="text-ivory/70 mx-auto mt-5 max-w-sm text-sm leading-relaxed">
+          <p className="text-ivory/75 font-display italic mx-auto mt-5 max-w-sm text-base leading-relaxed">
             Your presence is the only gift we ask for. Bring your laughter, your appetite
             and your dancing shoes — we have saved a seat, and a story, for you.
           </p>
@@ -50,9 +50,6 @@ export function Footer() {
             <p className="text-ivory font-display mt-6 text-3xl font-light">
               {wedding.groom.name} <span className="font-script text-gold">&amp;</span>{" "}
               {wedding.bride.name}
-            </p>
-            <p className="text-ivory/50 mt-2 text-[0.6rem] tracking-[0.4em] uppercase">
-              15 · 11 · 2026 · Pazhayannur
             </p>
           </div>
         </Reveal>

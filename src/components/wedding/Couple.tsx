@@ -36,7 +36,7 @@ function Person({
             {role}
           </span>
           <h3 className="text-primary mt-2 text-3xl font-light">{person.fullName}</h3>
-          <p className="text-muted-foreground mt-1 text-xs tracking-wide">{person.line}</p>
+          <p className="text-muted-foreground font-display italic mt-1 text-sm tracking-wide">{person.line}</p>
           <span className="rule-gold my-4 w-20" />
           <p className="text-foreground/75 text-sm leading-relaxed">{person.note}</p>
         </div>
@@ -67,7 +67,7 @@ export function Couple() {
         <Reveal className="text-center">
           <Ornament label="The Couple" />
           <h2 className="text-primary mt-5 text-4xl font-light">Two hearts, one thread</h2>
-          <p className="text-muted-foreground mx-auto mt-3 max-w-xs text-sm leading-relaxed">
+          <p className="text-muted-foreground font-display italic mx-auto mt-3 max-w-xs text-base leading-relaxed">
             Seven vows, seven steps, and a lifetime of ordinary mornings made beautiful.
           </p>
         </Reveal>
