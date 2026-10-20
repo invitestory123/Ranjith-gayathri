@@ -9,7 +9,7 @@ export const wedding = {
   bride: {
     name: "Gayathri",
     fullName: "Gayathri S",
-    line: "Daughter of S Shankar Rao & S Devi.",
+    line: "Daughter of S Shankar Rao & S Devi",
     note: "A passionate learner and creative soul who believes determination can turn every dream into reality.",
     image: "/images/bride.png",
   },

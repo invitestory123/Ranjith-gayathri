@@ -29,7 +29,7 @@ function Person({
               loading="lazy"
               width={768}
               height={896}
-              className={`h-full w-full object-cover object-top ${flip ? "scale-x-[-1]" : ""}`}
+              className={`h-full w-full object-cover object-center ${flip ? "scale-x-[-1]" : ""}`}
             />
           </div>
           <span className="text-gold mt-5 text-[0.6rem] tracking-[0.45em] uppercase">
