@@ -77,8 +77,12 @@ export function Gallery() {
                   </div>
 
                   {/* Caption on card */}
-                  <div className="absolute inset-x-0 bottom-0 p-4 text-left">
-                    <p className="text-gold-soft font-script text-2xl leading-none drop-shadow-md">
+                  <div className="absolute inset-x-0 bottom-0 p-3 sm:p-4 text-left">
+                    <p
+                      className={`text-gold-soft font-script leading-snug drop-shadow-md ${
+                        isFeatured ? "text-lg sm:text-xl" : "text-base sm:text-lg"
+                      }`}
+                    >
                       {item.caption}
                     </p>
                   </div>
@@ -154,7 +158,7 @@ export function Gallery() {
                 className="max-h-[72vh] w-auto object-contain"
               />
               <div className="bg-gradient-to-t from-emerald-ink via-emerald-ink/90 to-transparent p-4 text-center">
-                <p className="font-script text-gold-soft text-3xl font-normal drop-shadow-md">
+                <p className="font-script text-gold-soft text-2xl font-normal drop-shadow-md">
                   {photos[selectedIndex].caption}
                 </p>
               </div>
