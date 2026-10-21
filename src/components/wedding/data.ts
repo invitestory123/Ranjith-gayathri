@@ -11,7 +11,7 @@ export const wedding = {
     fullName: "Gayathri S",
     line: "Daughter of S Shankar Rao & S Devi",
     note: "A passionate learner and creative soul who believes determination can turn every dream into reality.",
-    image: "/images/bride.png",
+    image: "/images/bride.jpg",
   },
   coupleImage: "/images/couple-hero.png",
   bgmUrl: "/audio/bgm.mp3",
